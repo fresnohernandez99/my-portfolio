@@ -9,7 +9,8 @@
 
     <title>fresnohernandez99 portfolio</title>
     <meta name="description" content="fresnohernandez99 portfolio">
-    <meta name="keywords" content="fresnohernandez99, mobile developer, android developer, freelance developer, portfolio">
+    <meta name="keywords"
+        content="fresnohernandez99, mobile developer, android developer, freelance developer, portfolio">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <meta property="og:image" content="images/new_profile_jade.png">
@@ -53,6 +54,9 @@
             <a href="index.html" class="navbar-brand mx-auto mx-lg-0" id="my-portfolio">My portfolio</a>
 
             <div class="d-flex align-items-center d-lg-none">
+                <a class="custom-btn btn me-3" href="./doc/Eddy Y Fresno Hdz CV jan 2026 en.pdf">
+                    CV
+                </a>
                 <i class="navbar-icon bi-telephone-plus me-3"></i>
                 <a class="custom-btn btn phone-number-field" href="#section_4">
                     ...
@@ -75,6 +79,9 @@
                 </ul>
 
                 <div class="d-lg-flex align-items-center d-none ms-auto">
+                    <a class="custom-btn btn me-3" href="/doc/Eddy Y Fresno Hdz CV jan 2026 en.pdf">
+                        CV
+                    </a>
                     <i class="navbar-icon bi-telephone-plus me-3"></i>
                     <a class="custom-btn btn phone-number-field" href="#section_4">
                         ...
@@ -347,15 +354,20 @@
                             <strong class="site-footer-title d-block mt-4 mb-3" id="stay-connected">...</strong>
 
                             <ul class="social-icon">
-                                <li class="social-icon-item"><a href="https://wa.me/50664379826" class="social-icon-link bi-whatsapp"></a></li>
+                                <li class="social-icon-item"><a href="https://wa.me/50664379826"
+                                        class="social-icon-link bi-whatsapp"></a></li>
 
-                                <li class="social-icon-item"><a href="http://linkedin.com/in/fresnohernandez99" class="social-icon-link bi-linkedin"></a></li>
+                                <li class="social-icon-item"><a href="http://linkedin.com/in/fresnohernandez99"
+                                        class="social-icon-link bi-linkedin"></a></li>
 
-                                <li class="social-icon-item"><a href="https://github.com/fresnohernandez99" class="social-icon-link bi-github"></a></li>
+                                <li class="social-icon-item"><a href="https://github.com/fresnohernandez99"
+                                        class="social-icon-link bi-github"></a></li>
 
-                                <li class="social-icon-item"><a href="https://x.com/GOku99PRO" class="social-icon-link bi-twitter"></a></li>
+                                <li class="social-icon-item"><a href="https://x.com/GOku99PRO"
+                                        class="social-icon-link bi-twitter"></a></li>
 
-                                <li class="social-icon-item"><a href="https://www.instagram.com/goku99pro" class="social-icon-link bi-instagram"></a></li>
+                                <li class="social-icon-item"><a href="https://www.instagram.com/goku99pro"
+                                        class="social-icon-link bi-instagram"></a></li>
 
                             </ul>
                         </div>
@@ -368,6 +380,16 @@
                             <p>
                                 <a href="mailto:fresnohernandez99@gmail.com" class="email-field">
                                     ...
+                                </a>
+                            </p>
+                            <p>
+                                <a href="./doc/Eddy Y Fresno Hdz CV jan 2026 en.pdf">
+                                  ⬇️ CV - en-EN
+                                </a>
+                            </p>
+                            <p>
+                                <a href="./doc/Eddy Y Fresno Hdz CV jan 2026 es.pdf">
+                                   ⬇️ CV - es-ES
                                 </a>
                             </p>
                         </div>
@@ -490,7 +512,7 @@
 
             Array.from(Object.entries(strings[userLang])).forEach(([key, value]) => {
                 console.log(key.replaceAll("_", "-"));
-                
+
                 const element = document.getElementById(key.replaceAll("_", "-"));
                 console.log(element);
                 if (element) {
